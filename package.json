@@ -1,0 +1,28 @@
+{
+  "name": "mma-global",
+  "version": "1.0.0",
+  "description": "MMA GLOBAL:",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "lite-server": "^2.6.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomiddaugh/MMA-Global.git"
+  },
+  "author": "Steven Middaugh & Jordan Middaugh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomiddaugh/MMA-Global/issues"
+  },
+  "homepage": "https://github.com/jomiddaugh/MMA-Global#readme"
+}
