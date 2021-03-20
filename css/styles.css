@@ -1,4 +1,4 @@
-header {
+.homeheader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/img/phuket.jpg);
     background-position: center;
     background-size: cover;
@@ -45,4 +45,8 @@ header {
 .nav-list {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
+}
+
+.tripheader {
+    background-color: aqua;
 }
