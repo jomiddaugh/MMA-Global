@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>MMA Global</title>
@@ -14,7 +16,7 @@
 
 <body>
 
-    <header class="">
+    <header class="homeheader">
         <nav class="navbar navbar-expand-sm navbar-dark sticky">
             <div class="row">
                 <img src="/img/negativeLogo.png" class="img-fluid logo" />
@@ -82,33 +84,36 @@
                 </div>
             </div>
         </div>
-
         <div class="col-12 title text-white">
             <h1>MMA Global</h1>
         </div>
     </header>
-
-    <div class="row row-content align-items-center">
-        <div class="col text-center">
-            <div class="media">
-                <div class="media-body align-self-center">
-                    <h2>What is MMA Global?</h2>
-                    <p class="d-none d-sm-block">MMA Global is a club for mixed martial arts competitors, students, and
-                        fans alike. We offer the only worldwide travel service that is specifically planned around your
-                        training or exposure to the sport. Wether you want to travel across the world to train Muy Thai
-                        or just across state lines to learn some Wrestling, we have a trip for you. Just a beginner?
-                        Don't worry about it, MMA Global is here to help everyone get more involved in the sport. Join
-                        the club! </p>
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col text-center">
+                <div class="media">
+                    <div class="media-body align-self-center">
+                        <h2>What is MMA Global?</h2>
+                        <p class="d-none d-sm-block">MMA Global is a club for mixed martial arts competitors, students,
+                            and
+                            fans alike. We offer the only worldwide travel service that is specifically planned around
+                            your
+                            training or exposure to the sport. Wether you want to travel across the world to train Muy
+                            Thai
+                            or just across state lines to learn some Wrestling, we have a trip for you. Just a beginner?
+                            Don't worry about it, MMA Global is here to help everyone get more involved in the sport.
+                            Join
+                            the club! </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="row row-content align-items-center">
         <div class="col text-center">
             <div class="media">
                 <div class="media-body align-self-center">
-                    <h3>Upcoming Events</h3>
+                    <h2>Upcoming Events</h2>
                     <div class="row row-content align-items-center">
                         <div class="col-md-8 mx-auto">
                             <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -163,74 +168,115 @@
             </div>
         </div>
     </div>
-
-    <div class="row row-content">
-        <div class="col-12">
-            <h2 class="">Gear and Merch </h2>
-        </div>
-        <div class="col-12 media">
-            <img class="d-flex img-thumbnail" src="img/mmagloves.jpeg" alt="MMA Gloves" />
-            <div class="col-3">
-                <p class="d-none d-sm-block"> MMA Gloves $39.99 </p>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2 class="text-center">Gear and Merch</h2>
             </div>
-            <img class="d-flex img-thumbnail" src="img/ufchat.jpg" alt="Snapback" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Snapback $9.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/ufchat.jpg" alt="Snapback" />
+                    <div class="card-body">
+                        <h5 class="card-title"> Snapback</h5>
+                        <p class="card-text"> $9.99 </p>
+                    </div>
+                </div>
             </div>
-            <img class="d-flex img-thumbnail" src="img/mouthguard.jpg" alt="Mouthguard" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Mouthguard $5.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/mmagloves.jpeg" alt="MMA Gloves" />
+                    <div class="card-body">
+                        <h5 class="card-title"> MMA Gloves </h5>
+                        <p class="card-text"> $39.99 </p>
+                    </div>
+                </div>
             </div>
-            <img class="d-flex img-thumbnail" src="img/gi.jpg" alt="Jiu Jitsu Gi" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Jiu Jitsu Gi $89.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/mouthguard.jpg" alt="Mouthguard" />
+                    <div class="card-body">
+                        <h5 class="card-title"> Mouthguard </h5>
+                        <p class="card-text"> $5.99 </p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-12 media">
-            <img class="d-flex img-thumbnail" src="img/wrestlingshoes.jpg" alt="Wrestling Shoes" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Wrestling Shoes $69.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/gi.jpg" alt="Jiu Jitsu Gi" />
+                    <div class="card-body">
+                        <h5 class="card-title">Jiu Jitsu Gi</h5>
+                        <p class="card-text"> $89.99 </p>
+                    </div>
+                </div>
             </div>
-            <img class="d-flex img-thumbnail" src="img/thaishorts.jpg" alt="Muay Thai Shorts" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Muay Thai Shorts $19.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/wrestlingshoes.jpg" alt="Wrestling Shoes" />
+                    <div class="card-body">
+                        <h5 class="card-title">Wrestling Shoes</h5>
+                        <p class="card-text"> $69.99 </p>
+                    </div>
+                </div>
             </div>
-            <img class="d-flex img-thumbnail" src="img/shinguards.jpg" alt="Shin Guards" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> Shin Guards $49.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/thaishorts.jpg" alt="Muay Thai Shorts" />
+                    <div class="card-body">
+                        <h5 class="card-title"> Muay Thai Shorts </h5>
+                        <p class="card-text"> $19.99 </p>
+                    </div>
+                </div>
             </div>
-            <img class="d-flex img-thumbnail" src="img/tshirt.jpg" alt="T-Shirt" />
             <div class="col-3">
-                <p class="d-none d-sm-block"> T-Shirt $12.99 </p>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/shinguards.jpg" alt="Shin Guards" />
+                    <div class="card-body">
+                        <h5 class="card-title"> Shin Guards </h5>
+                        <p class="card-text"> $49.99 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/tshirt.jpg" alt="T-Shirt" />
+                    <div class="card-body">
+                        <h5 class="card-title">T-Shirt</h5>
+                        <p class="card-text"> $12.99 </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
     <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li> <a href="#">Home </a> </li>
-                        <li> <a href="#">Information </a> </li>
-                        <li> <a href="bookatrip.html">Book A Trip </a> </li>
-                        <li> <a href="#">News </a> </li>
+                        <li> <a class="text-white" href="#">Home </a> </li>
+                        <li> <a class="text-white" href="#">Information </a> </li>
+                        <li> <a class="text-white" href="bookatrip.html">Book A Trip </a> </li>
+                        <li> <a class="text-white" href="#">News </a> </li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social </h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class=""></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class=""></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class=""></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class=""></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
                 </div>
-
                 <div class="col-sm-4 text-center">
                     <h5> Contact Us</h5>
-                    <a role="button" class="btn btn-btnc-3" href="tel:+503-852-6624"> <i class="fa fa-phone"> </i>
+                    <a role="button" class="text-white btn btn-btnc-3" href="tel:+503-852-6624"> <i class="fa fa-phone">
+                        </i>
                         503-852-6624 </a> <br />
-                    <a role="button" class="btn btn-btnc-3" href="mailto:mmaglobal.com"> <i class="fa fa-envelope-o">
+                    <a role="button" class="text-white btn btn-btnc-3" href="mailto:mmaglobal.com"> <i
+                            class="fa fa-envelope-o">
                         </i> team@mmaglobal.com </a>
                 </div>
             </div>

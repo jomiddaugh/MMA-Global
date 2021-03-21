@@ -1,18 +1,15 @@
-header {
+.homeheader {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(/img/phuket.jpg);
     background-position: center;
     background-size: cover;
     height:100vh;
     background-attachment: fixed;
-
 }
 
 .nav-item {
-    display: inline-block;
     padding: 8px 0;
     margin-left: 10px;
     color: #fff;
-    text-decoration: none;
     text-transform: uppercase;
     font-size: x-large;
     
@@ -45,4 +42,21 @@ header {
 .nav-list {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
+}
+
+.tripheader {
+    background-color: aqua;
+}
+footer {
+    padding-top: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(78, 78, 78, 0.4)),url(/img/bg.jpg);
+    color: rgb(133, 143, 66);
+    font-weight: 300;
+}
+h2 {
+    padding: 10px;
+}
+p {
+    line-height: 2;
+    font-size: large;
 }
