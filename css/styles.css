@@ -60,3 +60,7 @@ p {
     line-height: 2;
     font-size: large;
 }
+
+.input-group-text {
+    width: 140px;
+}
