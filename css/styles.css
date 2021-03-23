@@ -89,7 +89,7 @@ p {
     
 }
 
-.book-head {
+.tripheader {
     height: 30vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.4)),url(/img/bg.jpg);
     border-style: ridge;
