@@ -55,7 +55,7 @@
 footer {
     padding-top: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(78, 78, 78, 0.4)),url(/img/bg.jpg);
-    color: beige;
+    color: rgb(133, 143, 66);
     font-weight: 300;
     border-style: ridge;
     border-width: 4px;
