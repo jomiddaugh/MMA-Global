@@ -45,10 +45,10 @@
 }
 
 .book-text {
-    color: beige;
+    color: whitesmoke;
     border-color: black;
     float:right;
-    margin-top: 150px;
+    margin-top: 50px;
     
 }
 .con-1{
@@ -94,9 +94,12 @@ p {
 }
 
 .tripheader {
-    height: 30vh;
+    height: 35vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.4)),url(/img/bg.jpg);
     border-style: ridge;
     border-width: 0px;
     border-color: beige;
+}
+.card {
+    height: 100%;
 }
