@@ -36,9 +36,6 @@
     border-radius: 30px;
 }
 
-.sticky {
-    position: fixed;
-}
 .nav-list {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 30px;
@@ -102,4 +99,10 @@ p {
 }
 .card {
     height: 100%;
+}
+
+.btn {
+    margin-left: 395%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
